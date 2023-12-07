@@ -6,11 +6,9 @@
 /*   By: sueno-te <rflseijiueno@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/07 07:17:27 by sueno-te          #+#    #+#             */
-/*   Updated: 2023/12/07 07:17:29 by sueno-te         ###   ########.fr       */
+/*   Updated: 2023/12/07 14:26:08 by sueno-te         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-/*checks for any printable character including space*/
 
 #include "libft.h"
 

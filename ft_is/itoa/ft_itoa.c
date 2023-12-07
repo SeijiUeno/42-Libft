@@ -6,7 +6,7 @@
 /*   By: sueno-te <rflseijiueno@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/07 07:17:22 by sueno-te          #+#    #+#             */
-/*   Updated: 2023/12/07 07:17:25 by sueno-te         ###   ########.fr       */
+/*   Updated: 2023/12/07 14:25:06 by sueno-te         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,14 +38,17 @@ char	*ft_itoa(int n)
 	long	nbr;
 
 	nbr = n;
+	if (n == INT_MIN)
+		return (NULL);
 	len = ft_len(nbr);
-	str = ft_calloc(len + 1, sizeof(char));
+	str = (char *)malloc((len + 1) * sizeof(char));
 	if (!str)
-		return (0);
+		return (NULL);
+
 	i = len;
 	if (n < 0)
 		nbr = -nbr;
-	while (nbr >= 0 && i > 0)
+	while (nbr > 0 && i > 0)
 	{
 		i--;
 		str[i] = nbr % 10 + '0';

@@ -6,7 +6,7 @@
 /*   By: sueno-te <rflseijiueno@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/07 07:13:43 by sueno-te          #+#    #+#             */
-/*   Updated: 2023/12/07 07:13:46 by sueno-te         ###   ########.fr       */
+/*   Updated: 2023/12/07 13:59:12 by sueno-te         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,9 @@
 # include <string.h>
 # include <unistd.h>
 # include <stdlib.h>
+#include <errno.h>
+#include <stdint.h>
+#include <limits.h>
 
 int		ft_isalnum(int c);
 int		ft_isalpha(int c);

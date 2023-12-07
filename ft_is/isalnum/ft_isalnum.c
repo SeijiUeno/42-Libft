@@ -6,11 +6,9 @@
 /*   By: sueno-te <rflseijiueno@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/06 23:32:44 by sueno-te          #+#    #+#             */
-/*   Updated: 2023/12/06 23:32:45 by sueno-te         ###   ########.fr       */
+/*   Updated: 2023/12/07 14:09:05 by sueno-te         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-/*checks for a digit (0 through 9). */
 
 #include "libft.h"
 

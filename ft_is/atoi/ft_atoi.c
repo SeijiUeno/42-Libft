@@ -6,7 +6,7 @@
 /*   By: sueno-te <rflseijiueno@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/06 23:28:45 by sueno-te          #+#    #+#             */
-/*   Updated: 2023/12/07 07:25:56 by sueno-te         ###   ########.fr       */
+/*   Updated: 2023/12/07 14:00:02 by sueno-te         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,10 +26,13 @@ int	ft_atoi(const char *nptr)
 	int	i;
 	int	num;
 	int	sign;
+	long long int result;
 
 	i = 0;
 	num = 0;
 	sign = 1;
+	result = 0;
+
 	while (ft_isspace(nptr[i]))
 	{
 		i++;
@@ -42,9 +45,12 @@ int	ft_atoi(const char *nptr)
 	}
 	while ((nptr[i] >= '0') && (nptr[i] <= '9'))
 	{
-		num = num * 10;
-		num = num + (nptr[i] - '0');
+		result = result * 10 + (nptr[i] - '0');
+		// Check for overflow
+		if (result * sign > INT_MAX || result * sign < INT_MIN)
+			return (0); // Handle overflow
 		i++;
 	}
-	return (num * sign);
+	return (result * sign);
 }
+

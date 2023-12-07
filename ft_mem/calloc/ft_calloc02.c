@@ -6,13 +6,11 @@
 /*   By: sueno-te <rflseijiueno@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/07 09:55:42 by sueno-te          #+#    #+#             */
-/*   Updated: 2023/12/07 09:59:32 by sueno-te         ###   ########.fr       */
+/*   Updated: 2023/12/07 13:57:49 by sueno-te         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft.h"
-#include <errno.h>
-#include <stdint.h>
+#include "libft.h"
 
 void *ft_calloc(size_t nmemb, size_t size) {
     void *alloc_mem;

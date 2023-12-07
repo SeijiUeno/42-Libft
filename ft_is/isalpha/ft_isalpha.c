@@ -6,12 +6,9 @@
 /*   By: sueno-te <rflseijiueno@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/06 23:32:40 by sueno-te          #+#    #+#             */
-/*   Updated: 2023/12/06 23:32:41 by sueno-te         ###   ########.fr       */
+/*   Updated: 2023/12/07 14:12:03 by sueno-te         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-/*Checks  for  an  alphabetic  character. The value of the argument must be
-representable as an unsigned char or the value of EOF.*/
 
 #include "libft.h"
 
