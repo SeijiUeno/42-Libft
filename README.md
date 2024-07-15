@@ -2,7 +2,7 @@
 
 ## Minha caixa de ferramentas C personalizada!
 
-Imagine criar sua própria caixa de ferramentas repleta de funções C poderosas. Bem-vindo à "libft" da 42 São Paulo! Essa biblioteca é meu conjunto de funções C, uma mão na roda para construir outros programas C com facilidade e eficiência.
+Imagine criar sua própria caixa de ferramentas repleta de funções C poderosas. Bem-vindo à "libft" da 42 São Paulo! Essa biblioteca é meu conjunto de funções C, uma mão na roda para construir outros programas C com facilidade e eficiência, especialmente no desenvolvimento dos projetos da 42.
 
 ### Por que isso é especial?
 
